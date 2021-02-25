@@ -11,3 +11,5 @@
 ### 4. дамп базы в файле test.sql
 
 ### подключение к базе данных в function.php function linkdb()
+
+#### данные для первого входа root@root.root root
