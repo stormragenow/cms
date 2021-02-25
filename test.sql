@@ -42,8 +42,8 @@ CREATE TABLE `note_data` (
 --
 
 INSERT INTO `note_data` (`note_id`, `user_login`, `note_name`, `note_char`, `activate`, `del`, `comment_admin`) VALUES
-(6, 'm.suhanow@yandex.ru', 'заметка', 'важная информация', 1, 0, NULL),
-(7, 'm.suhanow@yandex.ru', 'пароль', '4321вс1213', 1, 0, NULL),
+(6, 'root@root.root', 'заметка', 'важная информация', 1, 0, NULL),
+(7, 'root@root.root', 'пароль', '4321вс1213', 1, 0, NULL),
 (9, 'string@netu.ru', '34214', '43125', 0, 0, NULL),
 (10, 'string@netu.ru', 'пароль', '00909', 0, 0, NULL),
 (11, 'nerealname@bfdfk.ru', '453215', '5312`', 1, 0, NULL),
@@ -52,7 +52,7 @@ INSERT INTO `note_data` (`note_id`, `user_login`, `note_name`, `note_char`, `act
 (14, 'nerealname@bfdfk.ru', '123', '432143214321432143214321432143214321432143214321432143214321432143214321432143214321432143214321432143214321432143214321432143214321', 1, 0, NULL),
 (15, 'string@netu.ru', 'ffffffffffffffffffffff43214321fd', '432', 0, 0, NULL),
 (20, 'string@netu.ru', 'очень важно [b]1234[/b]', '[b]1234[/b]  [img]https://4.bp.blogspot.com/-YgiIDQ_el78/WvrCjkXwQaI/AAAAAAAAFcM/WMYm-mOZPMAzUp8-KjzWSlIHHni7HuPJgCLcBGAs/s1600/44a25591d21054646b745b79f879a48d.jpg[/img]', 1, 0, NULL),
-(16, 'm.suhanow@yandex.ru', 'птица', '[img]http://www.youloveit.ru/uploads/posts/2019-08/1565284946_red4.jpg[/img] ', 1, 0, NULL),
+(16, 'root@root.root', 'птица', '[img]http://www.youloveit.ru/uploads/posts/2019-08/1565284946_red4.jpg[/img] ', 1, 0, NULL),
 (17, 'string@netu.ru', 'птица', 'так [img]http://www.youloveit.ru/uploads/posts/2019-08/1565284946_red4.jpg[/img] так', 1, 0, NULL),
 (18, 'string@netu.ru', 'цифры', '5413', 0, 0, NULL),
 (19, 'nerealname@bfdfk.ru', 'афвы', '123', 1, 0, NULL),
@@ -81,7 +81,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`user_id`, `user_login`, `role`, `user_password`, `user_hash`, `activate`, `del`) VALUES
-(57, 'm.suhanow@yandex.ru', 'root', '1234', 'ec603a1a1002f7fb29400f7c58caaa53', 1, 0),
+(57, 'root@root.root', 'root', 'root', 'ec603a1a1002f7fb29400f7c58caaa53', 1, 0),
 (61, 'string@netu.ru', 'root', '123', '601f56ec7e0431132fa97907bca4e4f3', 1, 0),
 (73, 'nerealname@bfdfk.ru', 'user', '123', '', 1, 0),
 (74, 'm.suhanow@fdas.fdasf', 'user', '', '', 0, 0);
